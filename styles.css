@@ -18,6 +18,15 @@ html {
   overflow: hidden;
 }
 
+.nb-root::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url('images/bg.jpg') center / cover no-repeat;
+  filter: blur(4px) brightness(0.4);
+  z-index: 0;
+}
+
 .nb-noise {
   position: fixed;
   inset: 0;
@@ -79,7 +88,7 @@ html {
 .nb-nav-links a:hover { color: #cc1f1f; }
 
 .nb-hero {
-  padding: 96px 0 72px;
+  padding: 50px 0 25px;
   position: relative;
 }
 
@@ -179,7 +188,7 @@ html {
 }
 
 .nb-tools {
-  padding: 72px 0 96px;
+  padding: 30px 0 96px;
 }
 
 .nb-tool-card {
@@ -345,6 +354,20 @@ html {
 }
 
 .nb-footer-npm span { color: #cc1f1f; }
+
+.nb-footer-credit {
+  font-family: 'Space Mono', monospace;
+  font-size: 9px;
+  color: rgba(232,228,222,0.15);
+  letter-spacing: 0.05em;
+}
+
+.nb-footer-credit a {
+  color: rgba(232,228,222,0.25);
+  text-decoration: none;
+}
+
+.nb-footer-credit a:hover { color: rgba(232,228,222,0.5); }
 
 .nb-status-dot {
   width: 6px;
