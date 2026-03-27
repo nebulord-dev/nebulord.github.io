@@ -23,7 +23,7 @@ html {
   position: fixed;
   inset: 0;
   background: url('images/bg.jpg') center / cover no-repeat;
-  filter: blur(4px) brightness(0.4);
+  filter: blur(4px) brightness(0.2);
   z-index: 0;
 }
 
