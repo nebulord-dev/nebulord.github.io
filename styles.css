@@ -129,7 +129,7 @@ html {
 }
 
 .nb-hero-logo:hover img {
-  animation: glitch 0.4s steps(2) forwards;
+  animation: glitch 0.4s steps(2) infinite;
 }
 
 .nb-hero-logo:hover::before {
